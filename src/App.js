@@ -3,12 +3,12 @@ import './App.css';
 import MultipleValuesInput from './MultipleValuesInput';
 
 function App() {
-  const [values, setValues] = useState([])
+  const [values, setValues] = useState([]);
 
   return (
     <div className="App">
       <header className="App-header">
-        <div style={{background: "white", width: 300}}>
+        <div style={{ background: 'white', width: 300 }}>
           <MultipleValuesInput values={values} setValues={setValues} />
         </div>
         <ul>
